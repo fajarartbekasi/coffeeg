@@ -166,7 +166,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 pt-3">
                 <div class="card border-0">
                     <div class="d-flex card-header border-0">
                         <div class="mr-auto">

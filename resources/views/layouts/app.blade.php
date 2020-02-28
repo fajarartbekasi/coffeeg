@@ -21,7 +21,7 @@
 </head>
 <body class="bg-white">
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel shadow-sm sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{asset('logo/logo-twitter-png.png')}}"  height="20" alt="" srcset="">
@@ -94,10 +94,7 @@
                 </div>
             </div>
         </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
+        @yield('content')
     </div>
 </body>
 </html>
